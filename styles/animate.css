@@ -1,0 +1,60 @@
+/* ███████████████████████████████████████████████████████████████████████████████ 
+                                Animate
+   ███████████████████████████████████████████████████████████████████████████████ */
+   
+[data-animarScroll="right"].animation_on {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+    transition: .4s ease-in-out;
+}
+[data-animarScroll="left"].animation_on {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+    transition: .4s ease-in-out;
+}
+[data-animarScroll="top"].animation_on {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+    transition: .4s ease-in-out;
+}
+[data-animarScroll="bottom"].animation_on {
+    opacity: 0;
+    transform: translate3d(0, -50px, 0);
+    transition: .4s ease-in-out;
+}
+[data-animarScroll].animation_on.animate {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+[data-animarScroll].animation_on {
+    opacity: 0;
+    transition: 0 ease-in-out;
+}
+
+[data-animar] {
+    opacity: 0;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+}
+[data-animar="left"] {
+    transform: translate3d(-10px, 0, 0);
+}
+[data-animar="right"] {
+    transform: translate3d(10px, 0, 0);
+}
+[data-animar="center"] {
+    transform: translate3d(0, 0, 0);
+}
+[data-animar].animate {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+[data-delayAnimar="1"] {
+    transition-delay: .1s;
+}
+[data-delayAnimar="2"] {
+    transition-delay: .3s;
+}
+[data-delayAnimar="3"] {
+    transition-delay: .5s;
+}
