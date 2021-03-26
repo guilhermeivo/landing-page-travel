@@ -2,13 +2,6 @@
 
 🚢 Design da página principal, sobre viagens.
 
-# :scroll: Sumário
-
-- [Layout](#🎨-Layout)
-- [Tecnologias](#computer-tecnologias)
-- [Como rodar o projeto](#construction_worker-como-rodar-o-projeto)
-    - [Baixando o projeto](#computer-baixando-o-projeto)
-
 ## 🎨 Layout
 
 O layout da aplicação é:
